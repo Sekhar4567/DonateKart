@@ -120,6 +120,13 @@
             text-shadow: 1px 1px black;
         }
 
+        #donate_btn{
+            font-size: 30px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.601);
+        }
+
         /* Media query */
         @media (max-width:480px) {
 
@@ -213,10 +220,7 @@
             <h4> A donation is a gift - usually one of a charitable nature. A donation is a voluntary transfer of
                 property
                 from the transferor to the transferee with no exchange of value on the part of the recipient.</h4>
-            <form>
-                <script src="https://checkout.razorpay.com/v1/payment-button.js"
-                    data-payment_button_id="pl_LZkS2f9i2g3qnE" async> </script>
-            </form>
+            <button id="donate_btn">Donate</button>
         </div>
     </div>
 </body>
